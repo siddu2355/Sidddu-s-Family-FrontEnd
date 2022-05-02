@@ -1,0 +1,18 @@
+.App {
+  text-align: center;
+}
+.box{
+  justify-content: center;
+  align-items: center;
+}
+
+.translate{
+  transform:perspective(200px) translateZ(50px)
+}
+
+.circle-translate{
+  width:400vmin;
+  height:400vmin;
+  border-radius: 250vmin;
+  transform:perspective(200px) translateZ(30px)
+}
