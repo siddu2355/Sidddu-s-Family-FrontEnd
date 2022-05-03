@@ -12,6 +12,7 @@ const NavBar = ({user}) => {
                 </p>
             <div className='navbar'>
             {user && <React.Fragment>
+            <Link className='nav-link nav-item' to="/family" style={{color:"#e98074", fontWeight:"400"}}>Members</Link>
             <Link className='nav-link nav-item' to="/images" style={{color:"#e98074", fontWeight:"400"}}>Album</Link>
             <Link to="/logout" className='nav-link nav-item' style={{color:"#e98074", fontWeight:"400"}}>Log out</Link>
             <Link to="/profile" className='nav-link nav-item' style={{color:"#e98074", fontWeight:"400"}}>{user.name}</Link>
